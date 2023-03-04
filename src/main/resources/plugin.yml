@@ -1,0 +1,6 @@
+name: EvhoProxy
+version: latest
+author: TheSakyo
+description: Plugin Proxy du serveur Evhonia !
+main: fr.TheSakyo.EvhoProxy.ProxyMain
+softdepend: [LuckPerms-Bungee, Maintenance]
