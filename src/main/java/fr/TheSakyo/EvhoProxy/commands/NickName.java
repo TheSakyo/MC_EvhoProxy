@@ -78,7 +78,7 @@ public class NickName extends Command {
 	/********************************************************/
 
 
-	//Petite Méthode pour changer le Pseudo du Joueur //
+	// Petite Méthode pour changer le Pseudo du Joueur //
 	public void ChangeName(CommandSender commandSender, String[] strings) {
 
 		BaseComponent error = new TextComponent(main.prefix + ChatColor.RED + "Vous devez être en jeux !");
@@ -184,11 +184,11 @@ public class NickName extends Command {
 			} else { player.sendMessage(Type); }
 		}
 	}
-	//Petite Méthode pour changer le Pseudo du Joueur //
+	// Petite Méthode pour changer le Pseudo du Joueur //
 
 
 
-	//Petite Méthode pour remettre le Pseudo d'origine du Joueur //
+	// Petite Méthode pour remettre le Pseudo d'origine du Joueur //
 	public void resetName(CommandSender commandSender, String[] strings) {
 
 		BaseComponent error = new TextComponent(main.prefix + ChatColor.RED + "Vous devez être en jeux !");
@@ -257,5 +257,5 @@ public class NickName extends Command {
 
 		}
 	}
-	//Petite Méthode pour remettre le Pseudo d'origine du Joueur //
+	// Petite Méthode pour remettre le Pseudo d'origine du Joueur //
 }
